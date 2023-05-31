@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Grid sample</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .boz{
+            display: grid;
+            grid-template-columns: 40fr 40fr  40fr 40fr ;
+            grid-template-rows: 50px 50px 50px 50px;
+            
+        }
+        h1 {
+    text-align: center;
+    padding: 60px;
+    color: goldenrod;
+}
+
+body {
+    background: beige;
+}
+        /* #box1{
+            background-color: blue;
+            
+        }
+        #box2{
+            background-color: palevioletred;
+           
+        }
+        #box3{
+            background-color: sienna;
+          
+        }
+        #box4{
+            background-color: cadetblue;
+          
+        } */
+        .img-1 {
+    display: grid;
+    grid-template-columns: 120fr 120fr 120fr 120fr;
+    grid-auto-rows: 40px 40px 50px;
+}
+
+img {
+    width: 95%;
+    border-radius: 11px;
+}
+.hover-image {
+  transition: transform 0.3s ease;
+}
+
+.hover-image:hover {
+  transform: scale(1.2);
+}
+.black-to-white-image {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+}
+
+.black-to-white-image:hover {
+  filter: grayscale(10%);
+}
+
+
+    
+    </style>
+    <!-- <h1>hey saniya khan</h1>
+    <div class="boz">
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div id="box3">box3</div>
+    <div id="box4">box3</div>
+    </div> -->
+    <!-- gallery one -->
+    <h1>First gallery</h1>
+    <div class="img-1">
+        <img src="./cat-7954262_1920.jpg" class="hover-image" alt="">
+        <img src="./cat-7954262_1920.jpg"  class="hover-image" alt="">
+        <img src="./cat-7954262_1920.jpg" class="hover-image" alt="">
+        <img src="./cat-7954262_1920.jpg"  class="black-to-white-image" alt="">
+    </div>
+
+
+    <!-- second gallery -->
+</body>
+  
+
+</body>
+<script>
+    console.log("hello saniya khan")
+    alert("hey this is saniya khan")
+</script>
+</html>
